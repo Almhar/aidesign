@@ -1,0 +1,174 @@
+﻿@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNova-Regular.eot");
+    src: url("../fonts/ProximaNova-Regular.eot?iefix") format("embedded-opentype"),
+        url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Regular.woff") format("woff"),
+        url("../fonts/ProximaNova-Regular.ttf") format("truetype"),
+        url("../fonts/ProximaNova-Regular.svg#ProximaNova") format("svg");
+}
+
+@font-face {
+    font-family: "Proxima Nova Light";
+    src: url("../fonts/ProximaNova-Light.eot");
+    src: url("../fonts/ProximaNova-Light.eot?iefix") format("embedded-opentype"),
+        url("../fonts/ProximaNova-Light.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Light.woff") format("woff"),
+        url("../fonts/ProximaNova-Light.ttf") format("truetype"),
+        url("../fonts/ProximaNova-Light.svg#ProximaNovaLight") format("svg");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.eot");
+    src: url("../fonts/Roboto-Regular.eot?iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Regular.woff2") format("woff2"),
+        url("../fonts/Roboto-Regular.woff") format("woff"),
+        url("../fonts/Roboto-Regular.ttf") format("truetype"),
+        url("../fonts/Roboto-Regular.svg#Roboto") format("svg");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Light.eot");
+    src: url("../fonts/Roboto-Light.eot?iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Light.woff2") format("woff2"),
+        url("../fonts/Roboto-Light.woff") format("woff"),
+        url("../fonts/Roboto-Light.ttf") format("truetype"),
+        url("../fonts/Roboto-Light.svg#RobotoLight") format("svg");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/Roboto-Medium.eot");
+    src: url("../fonts/Roboto-Medium.eot?iefix") format("embedded-opentype"),
+        url("../fonts/Roboto-Medium.woff2") format("woff2"),
+        url("../fonts/Roboto-Medium.woff") format("woff"),
+        url("../fonts/Roboto-Medium.ttf") format("truetype"),
+        url("../fonts/Roboto-Medium.svg#RobotoMedium") format("svg");
+}
+
+@font-face {
+  font-family: "Julius Sans One";
+  src: url("../fonts/JuliusSansOne-Regular.eot");
+  src: url("../fonts/JuliusSansOne-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/JuliusSansOne-Regular.woff") format("woff"),
+       url("../fonts/JuliusSansOne-Regular.ttf") format("truetype"),
+       url("../fonts/JuliusSansOne-Regular.svg#JuliusSansOne-Regular") format("svg");
+}
+
+@font-face {
+  font-family: 'MichaelMarkerLite';
+  src: url("../fonts/MichaelMarkerLite-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/MichaelMarkerLite-Regular.woff2") format("woff2"),
+       url("../fonts/MichaelMarkerLite-Regular.woff") format("woff"),
+       url("../fonts/MichaelMarkerLite-Regular.ttf") format("truetype")
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?nihod6');
+  src:  url('fonts/icomoon.eot?nihod6#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?nihod6') format('truetype'),
+    url('../fonts/icomoon.woff?nihod6') format('woff'),
+    url('../fonts/icomoon.svg?nihod6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-camera::before {
+  content: "\e90f";
+}
+.icon-music::before {
+  content: "\e911";
+}
+.icon-email::before {
+  content: "\e915";
+}
+.icon-linkedin::before {
+  content: "\e91e";
+}
+.icon-download::before {
+  content: "\e933";
+}
+.icon-phone::before {
+  content: "\e942";
+}
+.icon-quotes-left::before {
+  content: "\e977";
+}
+.icon-quotes-right::before {
+  content: "\e978";
+}
+.icon-insta::before {
+  content: "\ea92";
+}
+.icon-spotify::before {
+  content: "\ea94";
+}
+.icon-telegram::before {
+  content: "\ea95";
+}
+.icon-twitter::before {
+  content: "\ea96";
+}
+.icon-skype::before {
+  content: "\eac5";
+}
+.icon-cross-thin::before {
+  content: "\f136";
+}
+.icon-check-thin::before {
+  content: "\f26b";
+}
+.icon-arrow-down::before {
+  content: "\f2f9";
+}
+.icon-arrow-left::before {
+  content: "\f2fa";
+}
+.icon-arrow-right::before {
+  content: "\f2fb";
+}
+.icon-arrow-up::before {
+  content: "\f2fc";
+}
+.icon-facebook:before {
+  content: "\f343";
+}
+.icon-profile::before {
+  content: "\e910";
+}
+.icon-skill::before {
+  content: "\f1b1";
+}
+.icon-home::before {
+  content: "\e902";
+}
+.icon-porfolio::before {
+  content: "\e920";
+}
+.icon-setting::before {
+  content: "\e994";
+}
+.icon-work::before {
+  content: "\e9ae";
+}
+.icon-project::before {
+  content: "\e9bc";
+}
+.icon-load::before {
+  content: "\eaa4";
+}
