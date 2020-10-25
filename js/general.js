@@ -23,7 +23,7 @@ $(document).ready(function () {
     setTimeout(function () {
         $("#load").hide();
         window.scrollTo(0, 0);
-    }, 2000);
+    }, 1500);
 
 
 
@@ -119,7 +119,7 @@ $(document).ready(function () {
 
 
 $(function () {
-    jQuery.scrollSpeed(100, 1000);
+    jQuery.scrollSpeed(100, 900);
 });
 
 
