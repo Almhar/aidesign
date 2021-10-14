@@ -4,19 +4,7 @@
 $(document).ready(function () {
 
     $(".current-age").html(parseInt((new Date()).getFullYear() - 1994));
-
-
-    //Water Ripple
-    try {
-        $(".skills-container").ripples({
-            resolution: 512,
-            dropRadius: 20, //px
-            perturbance: 0.04,
-        });
-    } catch (e) {
-        console.log(e);
-    }
-
+    $(".profile-exp").html(parseInt((new Date()).getFullYear() - 2017));
 
 
     //Loading Image
@@ -118,9 +106,9 @@ $(document).ready(function () {
 
 
 
-$(function () {
-    jQuery.scrollSpeed(100, 900);
-});
+//$(function () {
+//    jQuery.scrollSpeed(100, 900);
+//});
 
 
 
